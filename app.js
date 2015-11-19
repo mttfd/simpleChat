@@ -10,7 +10,7 @@ var cookieParser = require('cookie-parser');
 var app = express();
 
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', 3001);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
